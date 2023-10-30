@@ -1,0 +1,197 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: end;
+  background-color: #2e2e2d;
+  padding: 1.5rem;
+  color: #fff;
+  border-bottom: 0.8rem solid #61aefa;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  gap: 2.5rem;
+}
+
+.xd {
+  padding: 1.8rem;
+}
+
+.xdd {
+  width: 130rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.xdd p {
+  margin: 0 0.5rem;
+}
+
+.xdd a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.inicio {
+  color: #61aefa;
+}
+
+.actual {
+  color: #2e2e2d;
+}
+
+.title {
+  background-color: #61aefa;
+  height: 24.4rem;
+  display: flex;
+  align-items: end;
+}
+
+.title h1 {
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.juann {
+  margin-bottom: 3rem;
+  font-size: 2.2rem;
+}
+
+.redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#61aefa, #172854);
+  padding: 3rem;
+}
+
+.contenido-redes {
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenido-redes p {
+  color: #fff;
+}
+
+.icons-redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons-redes img {
+  width: 5rem;
+  height: 5rem;
+  margin: 2rem;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #172854;
+  padding: 5rem;
+  color: #fff;
+}
+
+.info-pages {
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem;
+}
+
+.info-pages a {
+  text-decoration: none;
+  color: inherit;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding: 1rem;
+}
+
+.info-content {
+  display: flex;
+}
+
+.contacto-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.telefonos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: first baseline;
+  margin: 1rem;
+}
+
+.numero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.numero img {
+  margin: 0.5rem;
+}
+
+.direcciones {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: first baseline;
+  margin: 1rem;
+}
+
+.direccion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.direccion img {
+  margin: 0.5rem;
+}
+
+footer {
+  background-color: #2e2e2d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.footer {
+  text-align: center;
+  padding: 1.2rem;
+}
+
+.footer p {
+  color: #fff;
+  text-transform: uppercase;
+}
