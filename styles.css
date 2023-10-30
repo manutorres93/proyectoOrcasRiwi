@@ -74,7 +74,7 @@ body {
   font-size: 2.2rem;
 }
 
-.redes {
+.network {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -82,7 +82,7 @@ body {
   padding: 3rem;
 }
 
-.contenido-redes {
+.network-content {
   text-transform: uppercase;
   display: flex;
   flex-direction: column;
@@ -90,17 +90,17 @@ body {
   align-items: center;
 }
 
-.contenido-redes p {
+.network-content p {
   color: #fff;
 }
 
-.icons-redes {
+.icons-network {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.icons-redes img {
+.icons-network img {
   width: 5rem;
   height: 5rem;
   margin: 2rem;
@@ -134,35 +134,46 @@ body {
 
 .info-content {
   display: flex;
+  justify-content: center;
 }
 
-.contacto-info {
+.contact {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.telefonos {
+.contact-info {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: first baseline;
+  align-items: center;
   margin: 1rem;
 }
 
-.numero {
+.phone-number {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.numero img {
+.phone-number img {
   margin: 0.5rem;
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.email img {
+  margin: 3rem;
 }
 
 .direcciones {
   display: flex;
-  flex-direction: column;
+
   justify-content: center;
   align-items: first baseline;
   margin: 1rem;
@@ -173,9 +184,12 @@ body {
   justify-content: center;
   align-items: center;
 }
+.direccion p {
+  margin: 1px;
+}
 
 .direccion img {
-  margin: 0.5rem;
+  margin: 2rem;
 }
 
 footer {
