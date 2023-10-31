@@ -1,10 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700;900&family=Sedgwick+Ave+Display&display=swap");
+
 html {
   font-size: 62.5%;
 }
 
 body {
   font-size: 16px;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Lato", sans-serif;
+  
   margin: 0;
 }
 
@@ -29,11 +32,9 @@ body {
   margin-right: 7rem;
   font-size: 2rem;
   display: flex;
-  
 }
 
-
-.orcas_white{
+.orcas_white {
   height: 10rem;
   display: flex;
   justify-content: flex-start;
@@ -79,7 +80,6 @@ body {
 .view-page {
   background-color: #f4f4f5;
   padding: 5rem 0;
-  
 }
 
 .about-us {
@@ -99,7 +99,21 @@ body {
   align-items: end;
 }
 
+.title-history {
+  background-color: #61aefa;
+  height: 24.4rem;
+  display: flex;
+  align-items: end;
+  background-image: url(/images/camilo_diaz_sub21fem.jpg);
+  background-position: 50% 30%;
+}
+
 .title h1 {
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.title-history h1 {
   text-transform: uppercase;
   color: #fff;
 }
@@ -243,4 +257,44 @@ footer {
 .footer p {
   color: #fff;
   text-transform: uppercase;
+}
+
+.carrusel {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: scroll;
+  justify-content: space-between;
+  margin: 0 7rem;
+}
+
+.carrusel::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+.carrusel::-webkit-scrollbar-thumb {
+  background: #61aefa;
+  border-radius: 1rem;
+  height: 8rem;
+}
+
+.elemento {
+  flex: 1 0 auto;
+  margin: 5rem 2.5rem;
+  /* background-color: #172854; */
+  width: 40rem;
+  height: 40rem;
+  padding: 3rem;
+  display: flex;
+}
+
+.block-text-history {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0rem 2rem;
+}
+
+.text-history {
+  font-size: 2rem;
+  text-align: justify;
 }
