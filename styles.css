@@ -21,6 +21,8 @@ body {
   color: #fff;
   border-bottom: 0.8rem solid #61aefa;
   gap: 55rem;
+  position: sticky;
+  top: 0;
 }
 
 .navbar a {
@@ -84,13 +86,77 @@ body {
 
 .about-us {
   /* width: 130rem; */
-  margin: 4rem 4rem 0 4rem;
+  margin: 4rem 20rem 0 20rem;
   padding: 8rem;
   display: flex;
   align-items: center;
   background-color: white;
   flex-direction: column;
 }
+
+.about-us p {
+  font-size: 2.3rem;
+  text-align: justify;
+}
+
+.about-us li {
+  font-size: 2.3rem;
+  text-align: justify;
+}
+
+.semilleros-photo-div {
+  display: flex;
+  justify-content: space-evenly;
+  height: 40rem;
+
+  margin: 3rem 0;
+  border-radius: 2rem;
+}
+
+.semilleros-photo-div img {
+  border-radius: 3rem;
+  display: grid;
+}
+
+.about-us > ul > li > span {
+  font-weight: bold;
+}
+/*  */
+
+.about-us-mision-vision {
+  display: flex;
+  text-align: center;
+}
+.information {
+  justify-content: center;
+}
+
+
+
+.title-name {
+  color: #232851;
+  font-weight: 700;
+  font-size: 2.3rem;
+  ;
+}
+
+h2 {
+  color: #18123b;
+  font-size: 4rem;
+}
+
+.text-information {
+  color: #8e8ba1;
+  font-size: 2rem;
+  margin-bottom: 10rem;
+ 
+}
+
+.values-orcas {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 
 .title {
   background-color: #61aefa;
@@ -309,7 +375,7 @@ footer {
   margin-bottom: 0rem;
 }
 
-.date p{
+.date p {
   margin: 0 0;
   font-size: 2rem;
 }
