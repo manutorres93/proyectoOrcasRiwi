@@ -49,6 +49,10 @@ body {
   justify-content: flex-end;
 }
 
+.list a:hover {
+  border-bottom: 3px solid #61aefa;
+}
+
 .banner {
   padding: 1.8rem;
 }
@@ -86,9 +90,9 @@ body {
   align-items: end;
 }
 .title h1 {
-    text-transform: uppercase;
-    color: #fff;
-  }
+  text-transform: uppercase;
+  color: #fff;
+}
 
 .title-container {
   /* margin-bottom: 3rem; */
@@ -97,9 +101,8 @@ body {
 
 /*----------------------------------------------------------*/
 
-.autor-galery{
-  color: #61AEFA;
-  
+.autor-galery {
+  color: #61aefa;
 }
 
 /*
@@ -125,24 +128,21 @@ Estilo para las imágenes
   }
 */
 
-.autor-galery{
+.autor-galery {
   margin-top: 3rem;
   margin-left: 11.6rem;
   font-weight: 700;
 }
 
-.section1-galery h2{
-  margin-top: 4rem;
+.section1-galery h2 {
+  margin: 15rem 0 0;
   text-align: center;
   font-size: 28px;
   margin-right: 7rem;
+  color: #232851;
 }
 
-.photos-galery div:hover {
-  transform: scale(1.2); 
-}
-
-.photos-galery div{
+.photos-galery div {
   margin: 16px;
   flex-basis: 180px;
   padding: 1.5rem;
@@ -152,12 +152,18 @@ Estilo para las imágenes
   box-sizing: border-box;
   border-radius: 15px;
   box-shadow: 0 10px 35px rgba(0, 0, 0, 0.2);
-  transition: transform 0.7s; 
-
 }
- 
 
-.container-galery{
+.photo-galery {
+  background-color: white;
+  transition: transform 0.7s;
+}
+
+.photo-galery:hover {
+  transform: scale(1.2);
+}
+
+.container-galery {
   width: 1250px;
   margin: 7% auto;
 
@@ -169,7 +175,7 @@ Estilo para las imágenes
   */
 }
 
-.photos-galery{
+.photos-galery {
   padding: 2rem;
   display: grid;
   grid-template-columns: auto auto auto;
@@ -177,8 +183,6 @@ Estilo para las imágenes
       margin-left: 0.5rem;
       margin-right: 3.8rem;
   */
-
-
 }
 
 .photos-galery div > img {
@@ -186,13 +190,13 @@ Estilo para las imágenes
   border-radius: 1rem;
 }
 
-.video-galery{
+.video-galery {
   display: grid;
   grid-template-columns: auto auto auto auto auto;
   padding: 4rem;
 }
 
-.video-galery div{
+.video-galery {
   grid-column: 3;
   padding: 2rem;
   margin: 16px;
@@ -204,14 +208,14 @@ Estilo para las imágenes
   box-sizing: border-box;
   border-radius: 15px;
   box-shadow: 0 10px 35px rgba(0, 0, 0, 0.2);
-  transition: transform 0.7s; 
+  transition: transform 0.7s;
+  background-color: white;
 }
 
-.video-galery div:hover{
-  transform: scale(1.2); 
+.video-galery:hover {
+  transform: scale(1.2);
 }
 /*----------------------------------------------------------*/
-
 
 .network {
   display: flex;

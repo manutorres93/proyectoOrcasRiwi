@@ -7,7 +7,7 @@ html {
 body {
   font-size: 16px;
   font-family: "Lato", sans-serif;
-  color: #8e8ba1;
+  
   margin: 0;
 }
 
@@ -47,6 +47,10 @@ body {
   display: flex;
   gap: 2.5rem;
   justify-content: flex-end;
+}
+
+.list a:hover {
+  border-bottom: 3px solid #61aefa;
 }
 
 .banner {
@@ -140,6 +144,7 @@ body {
 .about-us > ul > li > span {
   font-weight: bold;
 }
+
 /*  */
 
 .about-us-mision-vision {
@@ -379,4 +384,59 @@ footer {
 .date p {
   margin: 0 0;
   font-size: 2rem;
+}
+
+.results-container {
+  text-align: center;
+  margin: 4rem 20rem 0 20rem;
+  padding: 3rem;
+ 
+  
+}
+
+.results-table {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5rem;
+}
+
+/* img.avatar-athlete {
+  width: 4.375rem;
+  height: 4.375rem;
+  display: block;
+  margin: 0 auto;
+  /* position: relative; */
+  /* top: 2.5rem;
+} */ 
+
+.results-description {
+  background-color: #fafafa;
+  color: #b3b2b7;
+  font-size: 2.5rem;
+}
+
+.group-name {
+  color: #232851;
+  /* font-weight: 700;
+  line-height: 1.563rem;
+  letter-spacing: -0.01em;
+  text-align: left; */
+}
+
+.results-description{
+  padding: 10rem;
+}
+
+.orcas-team{
+  font-weight: bold;
+}
+
+.map-section {
+  padding: 12rem;
+}
+.map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

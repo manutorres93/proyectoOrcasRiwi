@@ -7,9 +7,8 @@ html {
 body {
   font-size: 16px;
   font-family: "Lato", sans-serif;
-
+  
   margin: 0;
-
 }
 
 .navbar {
@@ -46,6 +45,10 @@ body {
   display: flex;
   gap: 2.5rem;
   justify-content: flex-end;
+}
+
+.list a:hover{
+  border-bottom: 3px solid #61aefa;
 }
 
 .banner {
@@ -85,120 +88,110 @@ body {
   align-items: end;
 }
 .title h1 {
-    text-transform: uppercase;
-    color: #fff;
-  }
+  text-transform: uppercase;
+  color: #fff;
+}
 
 .title-container {
   /* margin-bottom: 3rem; */
   font-size: 2.2rem;
 }
 
-main{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
 
 .developers {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-    position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
+  position: relative;
 }
-.title-cards{
-    font-size: 5rem;
-    position: absolute;
-    top: 7rem;
-    color: #18123b;
+.title-cards {
+  font-size: 5rem;
+  position: absolute;
+  top: 7rem;
+  color: #18123b;
 }
 
-
-.cards{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 8rem;
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8rem;
 }
 .card {
-    width: 200px;
-    height: 300px;
-    perspective: 1000px;
+  width: 200px;
+  height: 300px;
+  perspective: 1000px;
 }
 
 .card-inner {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    transform-style: preserve-3d;
-    transition: transform 0.999s;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.999s;
 }
 
 .card:hover .card-inner {
-    transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
 .card-front,
 .card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
 }
 
 .card-front {
-    background-image: url(https://scontent.feoh3-1.fna.fbcdn.net/v/t39.30808-6/358134029_759059122887215_8814767599724855584_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEu0fU4wUYsr56HgKnE_x7CFxvhPlBphxIXG-E-UGmHEibIARLdecqZUPnaJ5Pp9ZqD3AEPa9-6VemUKk1td40h&_nc_ohc=_6dfONWAHH8AX_qbxP4&_nc_ht=scontent.feoh3-1.fna&oh=00_AfCOumQrny1FGyqB2jv4o8GoGNVuLPLaVXvZNyV76AVisQ&oe=65475834);
-    background-size: cover;
-    background-position: center center;
-    color: #fff;
-    display: flex;
-    align-items: center;
+  background-image: url(https://scontent.feoh3-1.fna.fbcdn.net/v/t39.30808-6/358134029_759059122887215_8814767599724855584_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEu0fU4wUYsr56HgKnE_x7CFxvhPlBphxIXG-E-UGmHEibIARLdecqZUPnaJ5Pp9ZqD3AEPa9-6VemUKk1td40h&_nc_ohc=_6dfONWAHH8AX_qbxP4&_nc_ht=scontent.feoh3-1.fna&oh=00_AfCOumQrny1FGyqB2jv4o8GoGNVuLPLaVXvZNyV76AVisQ&oe=65475834);
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  display: flex;
+  align-items: center;
 
-    border-radius: 10px;
-    justify-content: center;
-    font-size: 24px;
-    transform: rotateY(0deg);
+  border-radius: 10px;
+  justify-content: center;
+  font-size: 24px;
+  transform: rotateY(0deg);
 }
 
 .card-back {
-    background-color: #61adfa48;
-    backdrop-filter: blur(5px);    
-    color: #fff;
-    border: 1px solid #172854;
-    border-radius: 10px;
-    font-size: 24px;
-    transform: rotateY(180deg);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-
+  background-color: #61adfa48;
+  backdrop-filter: blur(5px);
+  color: #fff;
+  border: 1px solid #172854;
+  border-radius: 10px;
+  font-size: 24px;
+  transform: rotateY(180deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
-.content-card{
-    color: #000000b3;
+.content-card {
+  color: #000000b3;
 }
-.icons-card{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-
+.icons-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
-.icons-card img{
-    width: 30px;
+.icons-card img {
+  width: 30px;
 }
-
-
-
-
-
 
 .network {
   display: flex;
