@@ -1,0 +1,382 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700;900&family=Sedgwick+Ave+Display&display=swap");
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  color: #8e8ba1;
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #2e2e2d;
+  padding: 1.5rem;
+  color: #fff;
+  border-bottom: 0.8rem solid #61aefa;
+  gap: 55rem;
+  position: sticky;
+  top: 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.menu {
+  margin-right: 7rem;
+  font-size: 2rem;
+  display: flex;
+}
+
+.orcas_white {
+  height: 10rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  gap: 2.5rem;
+  justify-content: flex-end;
+}
+
+.banner {
+  padding: 1.8rem;
+}
+
+.banner-content {
+  width: 130rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.banner-content p {
+  margin: 0 0.5rem;
+}
+
+.banner-content a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.initial {
+  color: #61aefa;
+}
+
+.current {
+  color: #2e2e2d;
+  padding: 0.5rem;
+  text-transform: uppercase;
+}
+
+.title {
+  background-color: #61aefa;
+  height: 24.4rem;
+  display: flex;
+  align-items: end;
+}
+
+.title h1 {
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.title-container {
+  /* margin-bottom: 3rem; */
+  font-size: 2.2rem;
+}
+
+/* ------------------------------- */
+
+.view-page {
+  background-color: #f4f4f5;
+  padding: 5rem 0;
+}
+
+.about-us {
+  /* width: 130rem; */
+  margin: 4rem 20rem 0 20rem;
+  padding: 8rem;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  flex-direction: column;
+}
+
+.about-us p {
+  font-size: 2.3rem;
+  text-align: justify;
+}
+
+.about-us li {
+  font-size: 2.3rem;
+  text-align: justify;
+}
+
+.semilleros-photo-div {
+  display: flex;
+  justify-content: space-evenly;
+  height: 40rem;
+
+  margin: 3rem 0;
+  border-radius: 2rem;
+}
+
+.semilleros-photo-div img {
+  border-radius: 3rem;
+  display: grid;
+}
+
+.about-us > ul > li > span {
+  font-weight: bold;
+}
+/*  */
+
+.about-us-mision-vision {
+  display: flex;
+  text-align: center;
+}
+.information {
+  justify-content: center;
+}
+
+.title-name {
+  color: #232851;
+  font-weight: 700;
+  font-size: 2.3rem;
+}
+
+h2 {
+  color: #18123b;
+  font-size: 4rem;
+}
+
+.text-information {
+  color: #8e8ba1;
+  font-size: 2rem;
+  margin-bottom: 10rem;
+}
+
+.values-orcas {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.title-history {
+  background-color: #61aefa;
+  height: 24.4rem;
+  display: flex;
+  align-items: end;
+  background-image: url(/images/camilo_diaz_sub21fem.jpg);
+  background-position: 50% 30%;
+}
+
+.title-history h1 {
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.date h1 {
+  color: #232851;
+}
+
+.network {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#61aefa, #172854);
+  padding: 3rem;
+}
+
+.network-content {
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.network-content p {
+  color: #fff;
+}
+
+.icons-network {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons-network img {
+  width: 5rem;
+  height: 5rem;
+  margin: 2rem;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #172854;
+  padding: 5rem;
+  color: #fff;
+}
+
+.info-pages {
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem;
+}
+
+.info-pages a {
+  text-decoration: none;
+  color: inherit;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding: 1rem;
+}
+
+.info-content {
+  display: flex;
+  justify-content: center;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.phone-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phone-number img {
+  margin: 0.5rem;
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.email img {
+  margin: 3rem;
+}
+
+.direction {
+  display: flex;
+
+  justify-content: center;
+  align-items: first baseline;
+  margin: 1rem;
+}
+
+.location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.location p {
+  margin: 1px;
+}
+
+.direccion img {
+  margin: 2rem;
+}
+
+footer {
+  background-color: #2e2e2d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.footer {
+  text-align: center;
+  padding: 1.2rem;
+}
+
+.footer p {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.carrusel {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: scroll;
+  justify-content: space-between;
+  margin: 0 7rem;
+}
+
+.carrusel::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+.carrusel::-webkit-scrollbar-thumb {
+  background: #61aefa;
+  border-radius: 1rem;
+  height: 8rem;
+}
+
+.elemento {
+  flex: 1 0 auto;
+  margin: 0rem 2.5rem;
+  /* background-color: #172854; */
+  width: 40rem;
+  height: 40rem;
+  padding: 3rem;
+  display: flex;
+}
+
+.block-text-history {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0rem 2rem;
+}
+
+.text-history {
+  font-size: 2rem;
+  text-align: justify;
+}
+
+.date {
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 0rem;
+}
+
+.date h1 {
+  margin-bottom: 0rem;
+}
+
+.date p {
+  margin: 0 0;
+  font-size: 2rem;
+}

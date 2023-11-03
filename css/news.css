@@ -1,0 +1,353 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700;900&family=Sedgwick+Ave+Display&display=swap");
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #2e2e2d;
+  padding: 0.5rem;
+  color: #fff;
+  border-bottom: 0.8rem solid #61aefa;
+  gap: 55rem;
+  position: sticky;
+  top: 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.menu {
+  margin-right: 7rem;
+  font-size: 2rem;
+  display: flex;
+}
+
+.orcas_white {
+  height: 10rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  gap: 2.5rem;
+  justify-content: flex-end;
+}
+
+.banner {
+  padding: 1.8rem;
+}
+
+.banner-content {
+  width: 130rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.banner-content p {
+  margin: 0 0.5rem;
+}
+
+.banner-content a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.initial {
+  color: #61aefa;
+}
+
+.current {
+  color: #2e2e2d;
+  padding: 0.5rem;
+  text-transform: uppercase;
+}
+
+.title {
+  background-color: #61aefa;
+  height: 24.4rem;
+  display: flex;
+  align-items: end;
+}
+.title h1 {
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+.title-container {
+  /* margin-bottom: 3rem; */
+  font-size: 2.2rem;
+}
+
+/*----------------------------------------------------------*/
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-news section{
+    margin: 16px;
+    flex-basis: 180px;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 15px;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.2);
+    transition: transform 0.7s; 
+}
+.h3-news{
+  margin-left: 11rem;
+  font-size: 22px;
+}
+.container-news{  
+
+    display: grid;
+    grid-template-columns: auto auto ;
+}
+
+.news a{
+  background-color: rgba(51, 45, 45, 0.7);
+  border-radius: 4px;
+  text-decoration: none;
+  color: #fff;
+  transition: transform 0.7s;
+  font-size: 19px;
+}
+
+.container-news a:hover {
+  transform: scale(1.2); 
+}
+
+.news1{
+    background-image: url(https://telemedellin.tv/wp-content/uploads/2022/11/rugby-subacuatico-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+    width: 450px;
+    border-radius: 1px;
+    text-align: center;
+}
+.news1 a{
+    margin-top: 20rem;
+
+}
+
+.news2{
+    background-image: url(https://telemedellin.tv/wp-content/uploads/2022/11/orcas-campeon-berlin.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 1px;
+    height: 300px;
+    width: 500px;
+    text-align: center;
+}
+.news2 a{
+    margin-top: 20rem;
+}
+
+.news3{
+    background-image: url(https://lanotapositiva.com/wp-content/uploads/2019/11/agua-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+    width: 450px;
+    border-radius: 1px;
+    text-align: center;
+
+}
+.news3 a{
+  margin-top: 20rem;
+}
+
+.news4{
+    background-image: url(https://olimpicocol.co/web/wp-content/uploads/2022/08/WhatsApp-Image-2022-08-31-at-12.50.25-PM-1200x675.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+    width: 450px;
+    border-radius: 1px;
+    text-align: center;
+}
+.news4 a{
+  margin-top: 20rem;
+}
+
+.news5{
+    background-image: url(https://estaticos.elcolombiano.com/binrepository/849x566/0c0/780d565/none/11101/IPDJ/damas_42949463_20230731210558.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+    width: 500px;
+    border-radius: 1px;
+    text-align: center;
+}
+
+
+
+.news5 a{
+    margin-top: 20rem;
+}
+
+/*----------------------------------------------------------*/
+
+
+.network {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#61aefa, #172854);
+  padding: 3rem;
+}
+
+.network-content {
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.network-content p {
+  color: #fff;
+}
+
+.icons-network {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons-network img {
+  width: 5rem;
+  height: 5rem;
+  margin: 2rem;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #172854;
+  padding: 5rem;
+  color: #fff;
+}
+
+.info-pages {
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem;
+}
+
+.info-pages a {
+  text-decoration: none;
+  color: inherit;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding: 1rem;
+}
+
+.info-content {
+  display: flex;
+  justify-content: center;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.phone-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phone-number img {
+  margin: 0.5rem;
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.email img {
+  margin: 3rem;
+}
+
+.direction {
+  display: flex;
+
+  justify-content: center;
+  align-items: first baseline;
+  margin: 1rem;
+}
+
+.location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.location p {
+  margin: 1px;
+}
+
+.direccion img {
+  margin: 2rem;
+}
+
+footer {
+  background-color: #2e2e2d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.footer {
+  text-align: center;
+  padding: 1.2rem;
+}
+
+.footer p {
+  color: #fff;
+  text-transform: uppercase;
+}
