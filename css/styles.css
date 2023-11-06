@@ -7,7 +7,7 @@ html {
 body {
   font-size: 16px;
   font-family: "Lato", sans-serif;
-  
+
   margin: 0;
 }
 
@@ -96,8 +96,7 @@ body {
 }
 
 .title-container {
-  /* margin-bottom: 3rem; */
-  font-size: 2.2rem;
+  font-size: 4rem;
 }
 
 /* ------------------------------- */
@@ -108,9 +107,9 @@ body {
 }
 
 .about-us {
-  /* width: 130rem; */
-  margin: 4rem 20rem 0 20rem;
-  padding: 8rem;
+  
+  margin: 4rem 10rem ;
+  padding: 8rem ;
   display: flex;
   align-items: center;
   background-color: white;
@@ -118,19 +117,25 @@ body {
 }
 
 .about-us p {
-  font-size: 2.3rem;
+  font-size: 2rem;
   text-align: justify;
 }
 
 .about-us li {
-  font-size: 2.3rem;
+  font-size: 2rem;
   text-align: justify;
+}
+
+.about-us img{
+  height: 55rem;
+  border-radius: 3rem;
 }
 
 .semilleros-photo-div {
   display: flex;
   justify-content: space-evenly;
   height: 40rem;
+  gap: 2rem;
 
   margin: 3rem 0;
   border-radius: 2rem;
@@ -167,7 +172,7 @@ h2 {
 }
 
 .text-information {
-  color: #8e8ba1;
+  
   font-size: 2rem;
   margin-bottom: 10rem;
 }
@@ -187,6 +192,38 @@ h2 {
 }
 
 .title-history h1 {
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.title-club {
+  background-color: #61aefa;
+  height: 24.4rem;
+  display: flex;
+  align-items: end;
+  background-image: url(https://scontent.feoh3-1.fna.fbcdn.net/v/t39.30808-6/343006028_145033858363982_6465000896830139453_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=gUrEjlc04yAAX9hSDzg&_nc_ht=scontent.feoh3-1.fna&oh=00_AfAMXAqkmy2EKgBgMVtDv6qsEbTgJ9bnz1q1Hqcky1mQbA&oe=654A1E74);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 10% 60%;
+}
+
+.title-club h1 {
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.title-uwrugby {
+  background-color: #61aefa;
+  height: 24.4rem;
+  display: flex;
+  align-items: end;
+  background-image: url(https://scontent.feoh1-1.fna.fbcdn.net/v/t39.30808-6/211993510_4299076470115599_4569067915981481846_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=BSRy20DI2tkAX-8ABk0&_nc_ht=scontent.feoh1-1.fna&oh=00_AfD_hvt1ubE58KontnZ27g2qh2r_9Tv5m3jT5RDHsHLb5Q&oe=654957B2);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 10% 60%;
+}
+
+.title-uwrugby h1 {
   text-transform: uppercase;
   color: #fff;
 }
@@ -390,8 +427,6 @@ footer {
   text-align: center;
   margin: 4rem 20rem 0 20rem;
   padding: 3rem;
- 
-  
 }
 
 .results-table {
@@ -407,8 +442,8 @@ footer {
   display: block;
   margin: 0 auto;
   /* position: relative; */
-  /* top: 2.5rem;
-} */ 
+/* top: 2.5rem;
+} */
 
 .results-description {
   background-color: #fafafa;
@@ -424,11 +459,11 @@ footer {
   text-align: left; */
 }
 
-.results-description{
+.results-description {
   padding: 10rem;
 }
 
-.orcas-team{
+.orcas-team {
   font-weight: bold;
 }
 
