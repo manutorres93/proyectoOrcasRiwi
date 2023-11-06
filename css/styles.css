@@ -106,14 +106,32 @@ body {
   padding: 5rem 0;
 }
 
-.about-us {
-  
-  margin: 4rem 10rem ;
-  padding: 8rem ;
+.about-us-club {
+  margin: 4rem 10rem;
+  padding: 8rem;
   display: flex;
   align-items: center;
   background-color: white;
   flex-direction: column;
+}
+
+.about-us {
+  margin: 4rem 10rem;
+  padding: 8rem;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  flex-direction: column;
+}
+
+.about-us-club p {
+  font-size: 2rem;
+ 
+}
+
+.about-us-club ul {
+  font-size: 2rem;
+  
 }
 
 .about-us p {
@@ -126,9 +144,14 @@ body {
   text-align: justify;
 }
 
-.about-us img{
+.about-us img {
   height: 55rem;
   border-radius: 3rem;
+  margin-top: 4rem;
+}
+
+.about-us span {
+  margin: 10rem 0 4rem;
 }
 
 .semilleros-photo-div {
@@ -172,7 +195,6 @@ h2 {
 }
 
 .text-information {
-  
   font-size: 2rem;
   margin-bottom: 10rem;
 }
